@@ -1,3 +1,5 @@
+This is the react native demo from the React Native DEV Workshop
+
 To start the app on expo run "npx expo start"
 
 Download the expo app from IoS or Android - the app is called Expo Go
