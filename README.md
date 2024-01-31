@@ -23,4 +23,4 @@ ConfigError: Cannot determine which native SDK version your project uses because
 
 Please install it with `yarn add expo` and try again.
 
-Next, scan the qr code that comes up within the expo app
+Next, scan the qr code that comes up within the expo app. You will need to use the terminal to run this demo. 
