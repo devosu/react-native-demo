@@ -1,11 +1,43 @@
-# Sample Snack app
+Starting the App with Expo
+This guide provides step-by-step instructions on how to start the app using Expo, a framework and platform for universal React applications.
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+Prerequisites
+Before you begin, ensure you have the following installed:
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+Node.js: Download and install it from nodejs.org.
+Git: Download and install it from git-scm.com (if you plan to clone a Git repository).
+Installation
+Install Yarn: Yarn is a package manager that doubles down as project manager. Install it globally by running the following command:
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+Copy code
+npm install -g yarn
+Add Expo to Your Project: If you encounter a ConfigError related to the Expo SDK version, you need to add Expo to your project. Run:
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+csharp
+Copy code
+yarn add expo
+Start the Expo Project: Navigate to your project directory in the terminal and run:
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+sql
+Copy code
+npx expo start
+This command will start the Expo CLI server and open a new tab in your default web browser with the Expo developer tools.
+
+Running the App on a Mobile Device
+To run the app on your mobile device, follow these steps:
+
+Download the Expo Go App:
+
+For iOS: Search for "Expo Go" on the Apple App Store and install it.
+For Android: Search for "Expo Go" on the Google Play Store and install it.
+Scan the QR Code:
+
+After running npx expo start, a QR code will appear in the terminal or in the Expo developer tools in your browser.
+Open the Expo Go app on your mobile device and scan this QR code.
+View Your Project:
+
+After scanning, the app will start building in the Expo Go app on your device. This may take a few moments.
+Troubleshooting
+Expo SDK Version Error: If you encounter errors related to the Expo SDK version, ensure that Expo is installed in your project directory (yarn add expo).
+Network Issues: If your mobile device can't connect to the Expo server, ensure that your device and computer are on the same Wi-Fi network.
+For more information and detailed documentation, visit Expo Documentation.
